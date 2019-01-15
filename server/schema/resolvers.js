@@ -56,22 +56,3 @@ const resolvers = {
   
 
 module.exports = resolvers
-
-
-// addProductToCart(root, id, req) {
-//     const cartItem = products.find(val => val.id === +id)
-//     if (cartItem) {
-//         return cartItem.quantity += 1
-//     } else {
-//         const product = products.find(val => val.id === +id);
-//         if(!product){
-//             throw new Error(`No Product with ID: ${id}`)
-//         }
-//         const productClone = {
-//             ...product,
-//             quantity: 1
-//         };
-//         cart.push(productClone);
-//     }
-//     return cart
-// },
